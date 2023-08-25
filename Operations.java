@@ -11,6 +11,7 @@ class Operations {
 		System.out.println(a - b);
 		System.out.println(a * b);
 		System.out.println(a / b);
+		System.out.println(a % b);
 
 	}
 
@@ -18,6 +19,7 @@ class Operations {
 		operation("-", 1, 2);
 		operation("*", 1, 2);
 		operation("/", 1, 2);
+		operation("%", 1, 2);
 		// your code goes here
 	}
 }
